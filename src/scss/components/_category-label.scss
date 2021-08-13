@@ -1,0 +1,29 @@
+.category-label {
+  margin-top: 8px;
+  font-size: 14px;
+  display: inline-block;
+  padding: 3px 8px 4px;
+  background-color: #B0D5ED;
+  border-radius: 30px;
+  color: #fff;
+
+  &.-other {
+    background-color: #92CEEE;
+  }
+
+  &.-media {
+    background-color: #C3E8B5;
+  }
+  
+  &.-rectuit {
+    background-color: #F8D4CE;
+  }
+
+  &.-corporate {
+    background-color: #DFC6DE;
+  }
+
+  &.-portfolio {
+    background-color: #9EABD6;
+  }
+}
