@@ -2,6 +2,7 @@
 @import './fonts';
 @import './layout';
 @import './media';
+@import './color';
 
 @import './components/header-container';
 @import './components/footer-container';
@@ -9,3 +10,6 @@
 @import './components/article-container';
 @import './components/card-container';
 @import './components/common-container';
+@import './components/main-title';
+@import './components/head-menu';
+@import './components/links-container';

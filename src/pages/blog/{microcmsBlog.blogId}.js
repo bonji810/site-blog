@@ -12,11 +12,13 @@ const BlogPage = ({ data }) => (
         <div className="head">
           <h1 class="title">{data.microcmsBlog.title}</h1>
           <p class="time">{data.microcmsBlog.createdAt}</p>
+          <p class={`category-label -${data.microcmsBlog.category}`}>{data.microcmsBlog.category}</p>
         </div>
         <Link className="thumbnail" to={`${data.microcmsBlog.link}`} target="_blank" >
           <div className="image">
             <img src={`${data.microcmsBlog.thumbnail.url}`} alt="" className="img" />
           </div>
+          <span className="text">Visit Site</span>
         </Link>
         <div
           class="body"
@@ -41,6 +43,7 @@ export const query = graphql`
       title
       link
       body
+      category
       createdAt(formatString:"YYYY/MM/DD")
       thumbnail {
         url

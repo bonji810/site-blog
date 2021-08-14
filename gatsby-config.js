@@ -6,7 +6,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Bowwwards`,
+    title: `Bowwwards.com`,
     description: `気持ち良いモーションを中心に、参考になるサイトをまとめています。`,
     author: `@gatsbyjs`,
     siteUrl: `https://bowwwards.netlify.app/`,

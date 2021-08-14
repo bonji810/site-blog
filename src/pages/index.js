@@ -10,6 +10,12 @@ const IndexPage = ({data}) => (
     <Seo title="Home" />
     <div className="common-container">
       <div className="container">
+        <div className="title">
+          <div className="main-title">
+            <h1 className="main">Bowwwards.com</h1>
+            <p className="sub">自己流サイト分析＆まとめ。</p>
+          </div>
+        </div>
         <ul className="list">
           {data.allMicrocmsBlog.edges.map(({ node }) => (
             <li className="card-container">

@@ -29,15 +29,26 @@
 
   > .container > .head > .time {
     font-size: 1.6rem;
+    margin-bottom: 8px;
 
     @include sp {
       font-size: 1.4rem;
     }
   }
 
+  > .container > .thumbnail {
+    display: block;
+  }
+
   > .container > .thumbnail > .image {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 12px;
+  }
+
+  > .container > .thumbnail > .text {
+    display: inline-block;
+    margin-bottom: 60px;
+    border-bottom: 1px solid $blue;
   }
 
   > .container > .thumbnail > .image > .img {
@@ -55,6 +66,6 @@
   }
 
   > .container > .return {
-    border-bottom: 1px solid #B0D5ED;
+    border-bottom: 1px solid $blue;
   }
 }
