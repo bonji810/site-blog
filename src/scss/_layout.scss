@@ -1,6 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "TT_Norms_Pro_Light",'Noto Sans JP', sans-serif, serif;
-  font-weight: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
   word-wrap: break-word;
   font-kerning: normal;
   color: #252525;
@@ -9,4 +14,8 @@ body {
 a {
   color: #252525;
   text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
 }

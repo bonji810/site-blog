@@ -26,20 +26,13 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 1000,
-          padding: `0 0 24px`,
-        }}
-      >
+      <div>
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+        <footer className="footer-container"
         >
-          <p>2021 Yuna jimbo all rights reserved</p>
+          <div className="container">
+            <p>(c)2021 Yuna jimbo All rights reserved.</p>
+          </div>
         </footer>
       </div>
     </>

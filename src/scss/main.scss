@@ -1,6 +1,11 @@
 @import './reset';
 @import './fonts';
 @import './layout';
+@import './media';
 
-@import './components/header';
+@import './components/header-container';
+@import './components/footer-container';
 @import './components/category-label';
+@import './components/article-container';
+@import './components/card-container';
+@import './components/common-container';

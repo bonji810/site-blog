@@ -7,9 +7,9 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: `Bowwwards`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `気持ち良いモーションを中心に、参考になるサイトをまとめています。`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://bowwwards.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

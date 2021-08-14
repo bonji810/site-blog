@@ -1,0 +1,23 @@
+.common-container {
+  > .container {
+    max-width: 1000px;
+    min-height: 100vh;
+    margin-top: 60px;
+    margin: 60px auto 0;
+    padding: 80px 0;
+
+    @include sp {
+      padding: 40px 30px;
+    }
+  }
+
+  > .container > .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px 3.5%;
+
+    @include sp {
+      display: block;
+    }
+  }
+}
